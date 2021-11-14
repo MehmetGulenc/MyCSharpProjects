@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Concrete.InMemory
 {
@@ -16,9 +17,9 @@ namespace DataAccess.Concrete.InMemory
         {
             _cars = new List<Car>
             {
-                new Car{Id = 1, BrandId = 1, ColorId = 3, ModelYear = 2021, DailyPrice = 450, Description = "Car1"},
-                new Car{Id = 2, BrandId = 3, ColorId = 3, ModelYear = 2012, DailyPrice = 220, Description = "Car2"},
-                new Car{Id = 3, BrandId = 2, ColorId = 2, ModelYear = 2018, DailyPrice = 170, Description = "Car3"}
+                new Car{CarId = 1, BrandId = 1, ColorId = 3, ModelYear = 2021, DailyPrice = 450, Description = "Car1"},
+                new Car{CarId = 2, BrandId = 3, ColorId = 3, ModelYear = 2012, DailyPrice = 220, Description = "Car2"},
+                new Car{CarId = 3, BrandId = 2, ColorId = 2, ModelYear = 2018, DailyPrice = 170, Description = "Car3"}
             };
         }
 
@@ -39,7 +40,7 @@ namespace DataAccess.Concrete.InMemory
 
         public void Delete(Car car)
         {
-            var carToDelete = _cars.SingleOrDefault(c => c.Id == car.Id);
+            var carToDelete = _cars.SingleOrDefault(c => c.CarId == car.CarId);
             _cars.Remove(carToDelete);
 
         }
@@ -51,17 +52,22 @@ namespace DataAccess.Concrete.InMemory
 
         public List<Car> GetById(int carId)
         {
-            return _cars.Where(c => c.Id == carId).ToList();
+            return _cars.Where(c => c.CarId == carId).ToList();
         }
 
         public void Update(Car car)
         {
-            var carToUpdate = _cars.SingleOrDefault(c => c.Id == car.Id);
+            var carToUpdate = _cars.SingleOrDefault(c => c.CarId == car.CarId);
             carToUpdate.BrandId = car.BrandId;
             carToUpdate.ColorId = car.ColorId;
             carToUpdate.ModelYear = car.ModelYear;
             carToUpdate.DailyPrice = car.DailyPrice;
             carToUpdate.Description = car.Description;
+        }
+
+        public List<CarDetailsDto> GetCarDetails()
+        {
+            throw new NotImplementedException();
         }
     }
 }
