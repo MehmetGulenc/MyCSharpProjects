@@ -1,0 +1,17 @@
+_
+VC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Abstract\IBrandDal.csutf-8]
+TC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Abstract\ICarDal.csutf-8_
+VC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Abstract\IColorDal.csutf-8b
+YC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Abstract\ICustomerDal.csutf-8`
+WC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Abstract\IRentalDal.csutf-8^
+UC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Abstract\IUserDal.csutf-8p
+gC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Concrete\EntityFramework\efBrandDal.csutf-8n
+eC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Concrete\EntityFramework\efCarDal.csutf-8p
+gC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Concrete\EntityFramework\efColorDal.csutf-8s
+jC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Concrete\EntityFramework\efCustomerDal.csutf-8q
+hC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Concrete\EntityFramework\efRentalDal.csutf-8o
+fC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Concrete\EntityFramework\efUserDal.csutf-8u
+lC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Concrete\EntityFramework\RentACarContext.csutf-8m
+dC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\Concrete\InMemory\InMemoryCarDal.csutf-8Œ
+€C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8w
+lC:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.csutf-8

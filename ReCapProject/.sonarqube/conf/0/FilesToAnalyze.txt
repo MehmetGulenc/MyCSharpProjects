@@ -1,0 +1,12 @@
+﻿C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\DataAccess\EntityFramework\EfEntityRepositoryBase.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\DataAccess\IEntityRepository.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Entities\IDto.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Entities\IEntity.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Utilities\Results\DataResult.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Utilities\Results\ErrorDataResult.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Utilities\Results\ErrorResult.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Utilities\Results\IDataResult.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Utilities\Results\IResult.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Utilities\Results\Result.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Utilities\Results\SuccessDataResult.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Core\Utilities\Results\SuccessResult.cs

@@ -18,11 +18,20 @@ namespace ConsoleUI
 
         private static void CarTest()
         {
-            
             //AddACar();
             //GetCarDailyPrice();
-            GetCarDetail();
+            //GetCarDetail();
+            RentACar();
+        }
 
+        private static void RentACar()
+        {
+            RentalManager rentalManager = new RentalManager(new efRentalDal());
+            Rental rental = new Rental {CarId = 4, CustomerId = 1, RentDate = DateTime.Now};
+            var result = rentalManager.Add(rental);
+            Console.WriteLine(result.Message);
+
+            Console.ReadLine();
         }
 
         private static void GetCarDailyPrice()
@@ -31,7 +40,7 @@ namespace ConsoleUI
             var result = carManager.GetByDailyPrice(190, 320);
             foreach (var car in result.Data)
             {
-                Console.WriteLine(car.CarName);
+                Console.WriteLine(car.Description +" --- "+ car.DailyPrice);
             }
         }
 
@@ -46,10 +55,7 @@ namespace ConsoleUI
                     Console.WriteLine(car.BrandName + " / " + car.CarName + " / " + car.ColorName + " / " + car.DailyPrice);
                 }
             }
-            else
-            {
-                Console.WriteLine(result.Message);
-            }
+            Console.WriteLine(result.Message);
         }
 
         private static void AddACar()

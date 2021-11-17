@@ -1,0 +1,7 @@
+﻿C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Brand.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Car.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Color.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Customer.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Rental.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\User.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\DTOs\CarDetailsDto.cs

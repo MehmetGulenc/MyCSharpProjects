@@ -1,0 +1,12 @@
+_
+VC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Abstract\ICarService.csutf-8d
+[C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Abstract\ICustomerService.csutf-8b
+YC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Abstract\IRentalService.csutf-8`
+WC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Abstract\IUserService.csutf-8^
+UC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Concrete\CarManager.csutf-8c
+ZC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Concrete\CustomerManager.csutf-8a
+XC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Concrete\RentalManager.csutf-8_
+VC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Concrete\UserManager.csutf-8]
+TC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Constants\Messages.csutf-8‰
+~C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8s
+hC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\obj\Debug\net5.0\Business.AssemblyInfo.csutf-8

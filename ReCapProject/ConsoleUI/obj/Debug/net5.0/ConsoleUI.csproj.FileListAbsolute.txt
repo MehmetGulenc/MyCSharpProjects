@@ -120,4 +120,3 @@ C:\Users\User\Documents\MyCSharpProjects\ReCapProject\ConsoleUI\obj\Debug\net5.0
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\ConsoleUI\obj\Debug\net5.0\ref\ConsoleUI.dll
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.pdb
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.genruntimeconfig.cache
-C:\Users\User\Documents\MyCSharpProjects\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.CopyComplete

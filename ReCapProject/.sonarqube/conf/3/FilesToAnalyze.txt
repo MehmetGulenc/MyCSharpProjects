@@ -1,0 +1,9 @@
+﻿C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Abstract\ICarService.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Abstract\ICustomerService.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Abstract\IRentalService.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Abstract\IUserService.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Concrete\CarManager.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Concrete\CustomerManager.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Concrete\RentalManager.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Concrete\UserManager.cs
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Business\Constants\Messages.cs

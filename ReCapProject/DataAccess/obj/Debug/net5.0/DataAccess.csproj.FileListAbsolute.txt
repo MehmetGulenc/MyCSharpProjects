@@ -26,7 +26,7 @@ C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.dll
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete

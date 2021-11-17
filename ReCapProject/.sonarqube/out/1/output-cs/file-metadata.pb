@@ -1,0 +1,10 @@
+Y
+PC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Brand.csutf-8W
+NC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Car.csutf-8Y
+PC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Color.csutf-8\
+SC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Customer.csutf-8Z
+QC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\Rental.csutf-8X
+OC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\Concrete\User.csutf-8]
+TC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\DTOs\CarDetailsDto.csutf-8‰
+~C:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8s
+hC:\Users\User\Documents\MyCSharpProjects\ReCapProject\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.csutf-8
