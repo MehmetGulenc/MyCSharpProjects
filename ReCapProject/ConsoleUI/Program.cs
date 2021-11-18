@@ -26,7 +26,7 @@ namespace ConsoleUI
 
         private static void RentACar()
         {
-            RentalManager rentalManager = new RentalManager(new efRentalDal());
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
             Rental rental = new Rental {CarId = 4, CustomerId = 1, RentDate = DateTime.Now};
             var result = rentalManager.Add(rental);
             Console.WriteLine(result.Message);
@@ -36,7 +36,7 @@ namespace ConsoleUI
 
         private static void GetCarDailyPrice()
         {
-            CarManager carManager = new CarManager(new efCarDal());
+            CarManager carManager = new CarManager(new EfCarDal());
             var result = carManager.GetByDailyPrice(190, 320);
             foreach (var car in result.Data)
             {
@@ -46,7 +46,7 @@ namespace ConsoleUI
 
         private static void GetCarDetail()
         {
-            CarManager carManager = new CarManager(new efCarDal());
+            CarManager carManager = new CarManager(new EfCarDal());
             var result = carManager.GetCarDetails();
             if (result.Success == true)
             {
@@ -60,7 +60,7 @@ namespace ConsoleUI
 
         private static void AddACar()
         {
-            CarManager carManager = new CarManager(new efCarDal());
+            CarManager carManager = new CarManager(new EfCarDal());
             carManager.Add(new Car
             {
                 BrandId = 4,
