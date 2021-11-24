@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using Entities.Concrete;
 
 namespace WebAPI.Controllers
@@ -21,7 +23,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getall")]
-        public ActionResult GetAll()
+        public IActionResult GetAll()
         {
             var result = _rentalService.GetAll();
             if (result.Success)
@@ -32,7 +34,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
         [HttpGet("getbyid")]
-        public ActionResult GetById(int id)
+        public IActionResult GetById(int id)
         {
             var result = _rentalService.GetById(id);
             if (result.Success)
@@ -43,11 +45,24 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
         [HttpPost("add")]
-        public ActionResult Add(Rental rental)
+        public IActionResult Add(Rental rental)
         {
-            var result = _rentalService.Add(rental);
+            var result = _rentalService.IsAvailableForRent(rental.CarId);
             if (result.Success)
             {
+                _rentalService.Add(rental);
+                return Ok(result);
+            }
+
+            return BadRequest(result);
+        }
+        [HttpPost("update")]
+        public IActionResult Update(Rental rental)
+        {
+            var result = _rentalService.Update(rental);
+            if (result.Success)
+            {
+                _rentalService.Update(rental);
                 return Ok(result);
             }
 
