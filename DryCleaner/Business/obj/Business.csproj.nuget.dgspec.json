@@ -32,9 +32,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj"
-              },
               "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj": {
                 "projectPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj"
               },
@@ -57,6 +54,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
             },
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
@@ -126,17 +127,29 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Castle.Core": {
+            "Autofac": {
               "target": "Package",
-              "version": "[4.4.1, )"
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "FluentValidation": {
               "target": "Package",
               "version": "[10.3.4, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
             }
           },
           "imports": [
@@ -207,7 +220,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[3.1.21, )"
             }
           },
           "imports": [

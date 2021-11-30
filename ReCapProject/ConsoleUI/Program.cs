@@ -36,7 +36,7 @@ namespace ConsoleUI
 
         private static void GetCarDailyPrice()
         {
-            CarManager carManager = new CarManager(new EfCarDal());
+            CarManager carManager = new CarManager(new EfCarDal(), new BrandManager(new EfBrandDal()));
             var result = carManager.GetByDailyPrice(190, 320);
             foreach (var car in result.Data)
             {
@@ -46,7 +46,7 @@ namespace ConsoleUI
 
         private static void GetCarDetail()
         {
-            CarManager carManager = new CarManager(new EfCarDal());
+            CarManager carManager = new CarManager(new EfCarDal(), new BrandManager(new EfBrandDal()));
             var result = carManager.GetCarDetails();
             if (result.Success == true)
             {
@@ -60,7 +60,7 @@ namespace ConsoleUI
 
         private static void AddACar()
         {
-            CarManager carManager = new CarManager(new EfCarDal());
+            CarManager carManager = new CarManager(new EfCarDal(), new BrandManager(new EfBrandDal()));
             carManager.Add(new Car
             {
                 BrandId = 4,

@@ -18,11 +18,19 @@ namespace Business.Constants
         public static string CarListedByBrand = "Araba, markaya göre listelendi";
         public static string CarListedByColor = "Araba, renge göre listelendi";
         public static string CarDetailsListed = "Araba detayları listelendi";
+        public static string CarCountOfOpelError = "Opel Marka Araçtan 2 den fazla olamaz.";
 
         //--negative
         public static string CarNameInvalid = "Araba adı geçersiz";
         public static string DailyPriceInvalid = "Günlük fiyat geçersiz";
 
+        //Brand
+        //-- positive
+        public static string BrandAdded = "Marka Eklendi";
+        public static string BrandDeleted = "Marka Silindi";
+        public static string BrandUpdated = "Marka Güncellendi";
+        public static string BrandsListed = "Markalar Listelendi";
+        public static string BrandListed = "Marka Listelendi";
 
         //User
         //-- positive
@@ -48,17 +56,22 @@ namespace Business.Constants
 
         //--negative
         public static string CustomerNameInvalid = "Müşteri İsmi Geçersiz";
-        
+
         //Rental
         //-- positive
-        public static string CarIsRented= "Araba Kiralandı";
+        public static string CarIsRented = "Araba Kiralandı";
 
         //--negative
-        public static string CarRentalFailed= "Araba Kiralama Başarısız !!";
+        public static string CarRentalFailed = "Araba Kiralama Başarısız !!";
         public static string CarNotAvailable = "Araba Müsait Değil !";
 
         //System
         public static string MaintenanceTime = "Sistem bakımda";
-        
+
+        // CarImage
+        public static string CarImageAdded = "Araba resmi eklendi";
+        public static string CarImageLimitAchieved = "Bir araba için en fazla 5 resim yüklenebilir";
+        public static string CarImageNotFound = "Araba resmi bulunamadı";
+        public static string CarImageUpdated = "Araba resmi güncellendi";
     }
 }

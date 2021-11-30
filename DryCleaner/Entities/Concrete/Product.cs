@@ -12,7 +12,6 @@ namespace Entities.Concrete
         public int Id { get; set; }
         public int CategoryId { get; set; } 
         public string Name { get; set; }
-        public byte[] Image { get; set; }
         public DateTime AddedAt { get; set; }
         public bool IsActive { get; set; }  
     }

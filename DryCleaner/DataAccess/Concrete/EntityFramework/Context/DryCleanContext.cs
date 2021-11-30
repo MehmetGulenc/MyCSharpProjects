@@ -19,5 +19,6 @@ namespace DataAccess.Concrete.EntityFramework.Context
         public DbSet<OrderDetailService> OrderDetailServices { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
     }
 }

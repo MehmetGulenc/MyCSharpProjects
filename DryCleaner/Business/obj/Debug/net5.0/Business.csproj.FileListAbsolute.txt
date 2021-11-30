@@ -16,3 +16,4 @@ C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Business\bin\Debug\net5.0\Co
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Business\bin\Debug\net5.0\DataAccess.pdb
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Business\bin\Debug\net5.0\Entities.pdb
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Business\obj\Debug\net5.0\Business.csproj.CopyComplete

@@ -19,7 +19,7 @@ namespace WebAPI.Controllers
             _carService = carService;
         }
         [HttpGet("getall")]
-        public ActionResult GetAll()
+        public IActionResult GetAll()
         {
             var result = _carService.GetAll();
             if (result.Success)
@@ -31,7 +31,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getbybrandid")]
-        public ActionResult GetCarsByBrandId(int id)
+        public IActionResult GetCarsByBrandId(int id)
         {
             var result = _carService.GetCarsByBrandId(id);
             if (result.Success)
@@ -43,7 +43,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getbycolorid")]
-        public ActionResult GetCarsByColorId(int id)
+        public IActionResult GetCarsByColorId(int id)
         {
             var result = _carService.GetCarsByColorId(id);
             if (result.Success)
@@ -55,7 +55,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getbydailyprice")]
-        public ActionResult GetByDailyPrice(decimal min, decimal max)
+        public IActionResult GetByDailyPrice(decimal min, decimal max)
         {
             var result = _carService.GetByDailyPrice(min, max);
             if (result.Success)
@@ -67,7 +67,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getcardetails")]
-        public ActionResult GetCarDetails()
+        public IActionResult GetCarDetails()
         {
             var result = _carService.GetCarDetails();
             if (result.Success)
@@ -79,7 +79,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("add")]
-        public ActionResult Add(Car car)
+        public IActionResult Add(Car car)
         {
             var result = _carService.Add(car);
             if (result.Success)
@@ -91,7 +91,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("update")]
-        public ActionResult Update(Car car)
+        public IActionResult Update(Car car)
         {
             var result = _carService.Update(car);
             if (result.Success)
@@ -103,7 +103,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("delete")]
-        public ActionResult Delete(Car car)
+        public IActionResult Delete(Car car)
         {
             var result = _carService.Delete(car);
             if (result.Success)

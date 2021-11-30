@@ -9,7 +9,7 @@ C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Entities\bin\Debug\net5.0\re
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Entities\bin\Debug\net5.0\Entities.pdb
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Entities\bin\Debug\net5.0\Core.dll
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Entities\bin\Debug\net5.0\Core.pdb
-C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Entities\obj\Debug\net5.0\Entities.csproj.CopyComplete
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Entities\obj\Debug\net5.0\Entities.dll
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Entities\obj\Debug\net5.0\ref\Entities.dll
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Entities\obj\Debug\net5.0\Entities.pdb
+C:\Users\User\Documents\MyCSharpProjects\DryCleaner\Entities\obj\Debug\net5.0\Entities.csproj.CopyComplete

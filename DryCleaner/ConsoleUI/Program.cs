@@ -9,24 +9,26 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            ProductManager productManager = new ProductManager(new EfProductDal());
-            var resultAdd = productManager.Add(new Product
-            {
-                CategoryId = 2,
-                Name = "Ceket",
-                AddedAt = DateTime.Now,
-                IsActive = false
-            });
-            if (resultAdd.Success)
-            {
-                Console.WriteLine(resultAdd.Message);
-                var result = productManager.GetList();
-                foreach (var product in result.Data)
-                {
-                    Console.WriteLine(product.Name);
-                }
-            }
-            Console.ReadKey();
+            //ProductManager productManager = new ProductManager(new EfProductDal(), 
+            //    new CategoryManager(new EfCategoryDal()));
+            //var resultAdd = productManager.Add(new Product
+            //{
+            //    CategoryId = 2,
+            //    Name = "Ceket",
+            //    ImagePath = "image",
+            //    AddedAt = DateTime.Now,
+            //    IsActive = false
+            //});
+            //if (resultAdd.Success)
+            //{
+            //    Console.WriteLine(resultAdd.Message);
+            //    var result = productManager.GetAll();
+            //    foreach (var product in result.Data)
+            //    {
+            //        Console.WriteLine(product.Name);
+            //    }
+            //}
+            //Console.ReadKey();
         }
     }
 }

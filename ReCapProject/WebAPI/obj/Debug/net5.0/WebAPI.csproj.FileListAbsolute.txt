@@ -63,4 +63,6 @@ C:\Users\User\Documents\MyCSharpProjects\ReCapProject\WebAPI\bin\Debug\net5.0\Au
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\User\Documents\MyCSharpProjects\ReCapProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
-C:\Users\User\Documents\MyCSharpProjects\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Documents\MyCSharpProjects\ReCapProject\WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll

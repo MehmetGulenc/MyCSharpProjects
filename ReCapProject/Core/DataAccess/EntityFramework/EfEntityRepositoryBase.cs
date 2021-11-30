@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Core.DataAccess.EntityFramework
 {
     public class EfEntityRepositoryBase<TEntity, TContext> : IEntity
-        where TEntity: class, IEntity, new()
-        where TContext: DbContext, new()
+        where TEntity : class, IEntity, new()
+        where TContext : DbContext, new()
     {
         public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
         {
