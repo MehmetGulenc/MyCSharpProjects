@@ -28,7 +28,6 @@ C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Micr
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -66,3 +65,8 @@ C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\obj\Debug\net5.0\WebA
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Documents\MyCSharpProjects\DryCleaner\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

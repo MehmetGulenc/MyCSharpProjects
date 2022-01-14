@@ -11,6 +11,9 @@ namespace Business.Abstract
     public interface ICategoryService
     {
         IDataResult<List<Category>> GetAll();
-        IDataResult<Category> Get(int categoryId);
+        IDataResult<Category> GetById(int brandId);
+        IResult Add(Category brand);
+        IResult Update(Category brand);
+        IResult Delete(Category brand);
     }
 }

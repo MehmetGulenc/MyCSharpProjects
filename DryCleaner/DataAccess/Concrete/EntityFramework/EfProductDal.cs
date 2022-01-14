@@ -8,10 +8,12 @@ using Core.DataAccess.EntityFramework;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework.Context;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Concrete.EntityFramework
 {
     public class EfProductDal : EfEntityRepositoryBase<Product, DryCleanContext>, IProductDal
     {
+        
     }
 }

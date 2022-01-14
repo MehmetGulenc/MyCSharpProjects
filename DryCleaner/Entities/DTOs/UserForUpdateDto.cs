@@ -5,17 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using Core.Entities;
 
-namespace Entities.Concrete
+namespace Entities.DTOs
 {
-    public class User : IEntity
+    public class UserForUpdateDto : IDto
     {
         public int Id { get; set; }
-        public string UserIdentity { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public DateTime BirthDate { get; set; }
-        public int AdressId { get; set; }
-        public string Password { get; set; }    
+        //public string MobilePhone { get; set; }
+        //public string Address { get; set; }
     }
 }

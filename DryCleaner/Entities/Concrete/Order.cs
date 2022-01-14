@@ -15,8 +15,8 @@ namespace Entities.Concrete
         public int CreatedBy { get; set; }
         public DateTime OrderDate { get; set; }
         public DateTime RequiredDate { get; set; }
-        public bool IsReady { get; set; }
-        public bool IsPreparing { get; set; }   
+        public bool? IsReady { get; set; }
+        public bool? IsPreparing { get; set; }   
 
     }
 }

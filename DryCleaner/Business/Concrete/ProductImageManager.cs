@@ -13,6 +13,7 @@ using System.Text;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Helpers.FileHelper;
+using Entities.DTOs;
 
 namespace Business.Concrete
 {
@@ -49,6 +50,7 @@ namespace Business.Concrete
                 (CheckIfProductImageNull(productId).Data, Messages.ProductImageListed);
 
         }
+
         public IResult Add(IFormFile file, ProductImage productImage)
         {
             IResult result = BusinessRules.Run(CheckIfProductImageLimit(productImage.ProductId));
@@ -117,8 +119,6 @@ namespace Business.Concrete
 
             return new SuccessResult();
         }
-        
-
 
         private IDataResult<List<ProductImage>> CheckIfProductImageNull(int productId)
         {
@@ -130,7 +130,7 @@ namespace Business.Concrete
                     return new ErrorDataResult<List<ProductImage>>(resultCheck.Message);
                 }
                 string path = @"\images\logo.png";
-                var result = _productImageDal.GetAll(c => c.ProductId == productId).Any();
+                var result = _productImageDal.GetAll(c => c.ProductId == productId).Any((x => !string.IsNullOrEmpty(x.ImagePath)));
                 if (!result)
                 {
                     List<ProductImage> productImages = new List<ProductImage>();
