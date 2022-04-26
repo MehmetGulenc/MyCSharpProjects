@@ -13,6 +13,7 @@ namespace Core.DataAccess.EntityFramework
         where TEntity : class, IEntity, new()
         where TContext : DbContext, new()
     {
+
         public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
         {
             using (TContext context = new TContext())

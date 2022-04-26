@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj": {}
+    "D:\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {
+    "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj",
+        "projectPath": "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\obj\\",
+        "outputPath": "D:\\MyCSharpProjects\\DryCleaner\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,18 +92,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj": {
+    "D:\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\MyCSharpProjects\\DryCleaner\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\DataAccess\\obj\\",
+        "outputPath": "D:\\MyCSharpProjects\\DryCleaner\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,11 +124,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj"
+              "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {
+                "projectPath": "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj"
               },
-              "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj"
+              "D:\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj"
               }
             }
           }
@@ -163,18 +163,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj": {
+    "D:\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj",
+        "projectPath": "D:\\MyCSharpProjects\\DryCleaner\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Entities\\obj\\",
+        "outputPath": "D:\\MyCSharpProjects\\DryCleaner\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -195,8 +195,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj"
+              "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {
+                "projectPath": "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj"
               }
             }
           }
@@ -225,7 +225,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

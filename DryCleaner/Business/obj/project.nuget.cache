@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "REl20fptYXfqZ/+43k9qTRgqMOFMubJilQZSXBOTLfCGR5MEHsFBUB7hTWvrHanxLdD4ulvP9p0Rp7RIfCeLpQ==",
+  "dgSpecHash": "891VY/BFBMYsmHnFb2MWIX0flPUmTiC+MmKTR7vyLY00fG07C3ld7F+Fk6qdNf5MOHQjAyUkENk2OprdC+BBwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Business\\Business.csproj",
+  "projectFilePath": "D:\\MyCSharpProjects\\DryCleaner\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",

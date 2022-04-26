@@ -8,6 +8,7 @@ namespace DataAccess.Concrete.EntityFramework.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //optionsBuilder.UseSqlServer("Data Source=tcp:mywebsite3003.database.windows.net,1433;Initial Catalog=mywebsite3003;User Id=mywebsite3003;Password=T37PN543C8UR2B15$;");
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb; Database=DryClean; Trusted_Connection=true");
         }
         public DbSet<Product> Products { get; set; }

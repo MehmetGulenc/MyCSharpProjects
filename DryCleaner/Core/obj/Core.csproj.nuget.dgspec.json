@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {}
+    "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {
+    "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj",
+        "projectPath": "D:\\MyCSharpProjects\\DryCleaner\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\MyCSharpProjects\\DryCleaner\\Core\\obj\\",
+        "outputPath": "D:\\MyCSharpProjects\\DryCleaner\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
